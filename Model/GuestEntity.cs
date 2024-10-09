@@ -1,8 +1,7 @@
 ﻿namespace TestAPI_TEE.Model
 {
-    public class TestClass
+    public class GuestEntity: CommonEntity
     {
-        public Guid Id { get; set; }
         public string Title { get; set; }
         public string Firstname { get; set; }
         public string Lastname { get; set; }
