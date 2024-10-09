@@ -14,16 +14,15 @@ Note: There can be more addition to the real live application, the features adde
 
 **Architecture layers**:
 
-1)
-Guest.API
+**1) Guest.API**
 
 This is Gateway layer and entry point. All API request, request validation are made here
 
-Guest.BAL
+**2) Guest.BAL**
 
 This business and transformation layer. All logic is handled in this layer
 
-Guest.Infrastructure
+**3) Guest.Infrastructure**
 
 This infrastructure layer. All database backend transactions are handled here
 
